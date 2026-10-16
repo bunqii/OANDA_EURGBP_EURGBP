@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "EUR_GBP",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_EURGBP_EURGBP_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_EURGBP_EURGBP_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1762,
+  "first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 0.84544,
+    "high": 0.85144,
+    "low": 0.84544,
+    "close": 0.85048,
+    "volume": 18605
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 0.84532,
+    "high": 0.8478,
+    "low": 0.8446,
+    "close": 0.8452,
+    "volume": 72085
+  },
+  "csv_file": "OANDA_EURGBP_EURGBP_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1762,
+  "csv_first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 0.84544,
+    "high": 0.85144,
+    "low": 0.84544,
+    "close": 0.85048,
+    "volume": 18605
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 0.84532,
+    "high": 0.8478,
+    "low": 0.8446,
+    "close": 0.8452,
+    "volume": 72085
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T00:48:57.000000000Z",
+  "generated_at": "2026-10-16T00:48:57.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2016-01-14T21:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
